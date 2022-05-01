@@ -10,7 +10,7 @@
 	PASSWORD: today@1234
 	
 	cd /tmp ; git clone https://github.com/vsravuri/vr_devops_labs
-	cd /tmp/vr_devops_labs/scripts
+	cd /tmp/vr_devops_labs/cloud
 	bash setupsshuserjenkins.sh
 	
 
