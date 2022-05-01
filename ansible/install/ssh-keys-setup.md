@@ -8,6 +8,11 @@
 	
 	USERNAME: devops
 	PASSWORD: today@1234
+	
+	cd /tmp ; git clone https://github.com/vsravuri/vr_devops_labs
+	cd /tmp/labs/cloud
+	bash setupsshuserjenkins.sh
+	
 
 ### genereate ssh keys for above user on contrller machine 
 
