@@ -8,7 +8,7 @@ sudo bash /tmp/installJenkins.sh
 ``` 
 sudo wget https://raw.githubusercontent.com/lerndevops/labs/master/scripts/installMaven.sh -P /tmp
 sudo chmod 755 /tmp/installMaven.sh
-sudo bash /tmp/installJenkins.sh
+sudo bash /tmp/installMaven.sh
 ```
 
 # Manual Installation Steps 
@@ -16,7 +16,7 @@ sudo bash /tmp/installJenkins.sh
 ```
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt-get update
-sudo apt-get install -y openjdk-8-jdk
+sudo apt-get install -y openjdk-11-jdk
 ```
 ### Install Maven  ( on Jenkins machine )
 ```
